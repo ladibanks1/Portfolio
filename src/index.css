@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+    .icons li{
+        @apply mx-3
+    }
+    .skills{
+        @apply flex flex-col sm:grid sm:grid-cols-2 md:grid-cols-3 sm:ps-10 items-center gap-10 text-center sm:text-left
+    }
+    .skills h1{
+        @apply text-2xl font-bold
+    }
+    .skills p{
+        @apply text-sm font-light text-slate-300
+    }
+    .icons a > *{
+        @apply w-5 h-5
+    }
+    input , label , textarea{
+        @apply w-full block text-left
+    }
+    label{
+        @apply text-slate-200 mt-4 ms-5
+    }
+    input , textarea{
+        @apply bg-transparent border-b-2 border-slate-300 p-2 focus:!border-slate-500
+    }
+}
