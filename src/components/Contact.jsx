@@ -12,7 +12,7 @@ const Contact = () => {
           </p>
         </section>
         <section className="basis-3/4">
-          <form action="mailto://oladipupobankole24@gmail.com">
+          <form action="mailto:oladipupobankole24@gmail.com">
             <label htmlFor="name">NAME</label>
             <input type="text" id="name" required />
             <label htmlFor="email">EMAIL</label>
