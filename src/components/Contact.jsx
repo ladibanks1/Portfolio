@@ -26,7 +26,11 @@ const Contact = () => {
           </p>
         </section>
         <section className="basis-3/4">
+<<<<<<< HEAD
           <form onSubmit={handleSubmit} method="POST" encType="text/plain">
+=======
+          <form action="mailto:oladipupobankole24@gmail.com">
+>>>>>>> 49aa17ff752dafe47b5d96904c8dd0acaa2da80f
             <label htmlFor="name">NAME</label>
             <input
              type="text" 
