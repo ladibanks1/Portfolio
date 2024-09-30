@@ -34,12 +34,19 @@ const Hero = () => {
               </p>
             )}
           </article>
-          <div>
+          <div className="flex  items-center lg:flex-row justify-between">
             <a
               href="mailto:oladipupobankole24@gmail.com"
-              className="border-b-[3px] border-green-400 animate-pulse text-xl sm:text-2xl"
+              className="border-b-[3px] border-green-400 animate-pulse text-xl lg:text-2xl"
             >
               Contact Me
+            </a>
+            <a
+              href="/Oladipupo BankoleResume.pdf"
+              className="border-b-[3px] border-green-400 animate-pulse text-xl lg:text-2xl"
+              download={true}
+            >
+              Download Cv
             </a>
           </div>
         </div>
