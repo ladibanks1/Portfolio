@@ -6,12 +6,27 @@ const Contact = () => {
   const [message, setMessage] = useState();
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    const subject = encodeURIComponent('New Message from ' + name);
-    const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
-    console.log(subject , body)
+    e.preventDefault();
+    const subject = encodeURIComponent("New Message from " + name);
+    const body = encodeURIComponent(
+`Dear Oladipupo Bankole,
+
+    I hope this message finds you well.
+      
+    My name is ${name}, and I am reaching out regarding the following matter:
+    ${message}
+      
+    You can reply to me at ${email}.
+      
+    Thank you for your attention to this matter. I look forward to your response.
+
+Best regards,
+${name}`
+    );
+
+    console.log(subject, body);
     const mailtoLink = `mailto:oladipupobankole24@gmail.com?subject=${subject}&body=${body}`;
-    window.location.href = mailtoLink; 
+    window.location.href = mailtoLink;
   };
   return (
     <div>
@@ -29,19 +44,24 @@ const Contact = () => {
           <form onSubmit={handleSubmit} method="POST" encType="text/plain">
             <label htmlFor="name">NAME</label>
             <input
-             type="text" 
-             id="name"
-             onChange={(e) => setName(e.target.value)}
-            required
-             />
+              type="text"
+              id="name"
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
             <label htmlFor="email">EMAIL</label>
-            <input type="email" id="email"
+            <input
+              type="email"
+              id="email"
               onChange={(e) => setEmail(e.target.value)}
-            required />
+              required
+            />
             <label htmlFor="message">MESSAGE</label>
-            <textarea id="message" 
+            <textarea
+              id="message"
               onChange={(e) => setMessage(e.target.value)}
-            required></textarea>
+              required
+            ></textarea>
             <button
               type="submit"
               className="border-b-2 border-green-400 p-2 mt-10 animate-bounce hover:animate-none"
