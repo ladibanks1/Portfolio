@@ -14,7 +14,7 @@ const Skills = () => {
         <p>1 Year+ Experience</p>
       </div>
       <div>
-        <h1>Tailwind</h1>
+        <h1>TAILWIND</h1>
         <p>1 Year+ Experience</p>
       </div>
       <div>
@@ -35,6 +35,10 @@ const Skills = () => {
       </div>
       <div>
         <h1>EXPRESS JS</h1>
+        <p>1 Year+ Experience</p>
+      </div>
+      <div>
+        <h1>TYPESCRIPT</h1>
         <p>1 Year+ Experience</p>
       </div>
       </section>

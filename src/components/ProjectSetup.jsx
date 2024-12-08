@@ -11,6 +11,9 @@ import tailwindProjectImageTwo from "../assets/Project Three/image3.png";
 import bootstrapProjectImage from "../assets/Project Four/image1.png";
 import bootstrapProjectImageOne from "../assets/Project Four/image2.png";
 import bootstrapProjectImageTwo from "../assets/Project Four/image3.png";
+import patientHubImage from "../assets/Project Five/image1.png";
+import patientHubImageOne from "../assets/Project Five/image2.png";
+import patientHubImageTwo from "../assets/Project Five/image3.png";
 const ProjectSetup = () => {
   return (
     <div className="projects !flex !flex-wrap lg:p-14">
@@ -50,6 +53,15 @@ const ProjectSetup = () => {
             img1={bootstrapProjectImage}
             img2={bootstrapProjectImageOne}
             img3={bootstrapProjectImageTwo}
+      />
+      <ProjectImages 
+          title={"PATIENT HUB"}
+          tools={["REACT" , "EXPRESS" , "SOCKETIO" , "TAILWIND"]}
+          projectLink={"https://patienthub.vercel.app"}
+          codeLink={"https://github.com/ladibanks1/patient-hub-frontend"}
+          img1={patientHubImage}
+          img2={patientHubImageOne}
+          img3={patientHubImageTwo}
       />
     </div>
   );
