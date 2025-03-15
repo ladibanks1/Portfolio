@@ -9,7 +9,6 @@ export default defineConfig({
     sitemapPlugin({
       hostname: "https://ladibanks1-portfolio.vercel.app",
       routes: ["/"],
-      outDir: "public",
     }),
   ],
 });
