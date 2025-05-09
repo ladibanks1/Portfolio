@@ -7,38 +7,50 @@ const Skills = () => {
       <section className='skills'>
       <div>
         <h1>HTML</h1>
-        <p>1 Year+ Experience</p>
+        <p>3 Year+ Experience</p>
       </div>
       <div>
         <h1>CSS</h1>
-        <p>1 Year+ Experience</p>
+        <p>3 Year+ Experience</p>
       </div>
       <div>
         <h1>TAILWIND</h1>
-        <p>1 Year+ Experience</p>
+        <p>2 Year+ Experience</p>
       </div>
       <div>
         <h1>BOOTSTRAP</h1>
-        <p>1 Year+ Experience</p>
+        <p>2 Year+ Experience</p>
       </div>
       <div>
         <h1>JAVASCRIPT</h1>
-        <p>1 Year+ Experience</p>
+        <p>3 Year+ Experience</p>
       </div>
       <div>
         <h1>REACT</h1>
-        <p>1 Year+ Experience</p>
+        <p>2 Year+ Experience</p>
       </div>
       <div>
         <h1>NODE JS</h1>
-        <p>1 Year+ Experience</p>
+        <p>2 Year+ Experience</p>
       </div>
       <div>
         <h1>EXPRESS JS</h1>
-        <p>1 Year+ Experience</p>
+        <p>2 Year+ Experience</p>
       </div>
       <div>
         <h1>TYPESCRIPT</h1>
+        <p>1 Year+ Experience</p>
+      </div>
+      <div>
+        <h1>NOSQL</h1>
+        <p>2 Year+ Experience</p>
+      </div>
+      <div>
+        <h1>SQL</h1>
+        <p>1 Year+ Experience</p>
+      </div>
+      <div>
+        <h1>NextJS</h1>
         <p>1 Year+ Experience</p>
       </div>
       </section>

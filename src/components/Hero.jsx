@@ -42,7 +42,7 @@ const Hero = () => {
               Contact Me
             </a>
             <a
-              href="/OladipupoResume.pdf"
+              href="/OladipupoCv.pdf"
               className="border-b-[3px] border-green-400 animate-pulse text-xl lg:text-2xl"
               download={true}
             >
