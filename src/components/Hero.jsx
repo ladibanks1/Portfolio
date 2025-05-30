@@ -1,14 +1,18 @@
 import { useState } from "react";
 import image from "../assets/Ola-image.jpg";
 const bio =
-  "Based in Nigeria, I am a passionate full-stack developer dedicated to creating accessible web applications that engage users. I focus on delivering solutions that meet and exceed user needs, while continuously seeking to expand my skills and stay updated with the latest technologies. I am excited about the opportunity to contribute to a forward-thinking team.";
+  "Based in Nigeria, I am a dedicated full-stack developer passionate about crafting scalable, high-performance web, mobile, and backend applications that deliver real value to users. I thrive on solving complex challenges through clean, maintainable code and continuously expanding my skills with the latest technologies. Committed to collaboration and innovation, I’m eager to contribute to forward-thinking teams that drive impactful solutions and growth.";
 const Hero = () => {
   const [showMore, setShowMore] = useState(false);
   return (
     <div>
       <section className="sm:flex sm:flex-row-reverse lg:px-14 ">
         <div>
-          <img src={image} alt="Ola Image" className="w-2/3 sm:w-full  sm:h-full  object-cover rounded-md mx-auto" />
+          <img
+            src={image}
+            alt="Ola Image"
+            className="w-2/3 sm:w-full  sm:h-full  object-cover rounded-md mx-auto"
+          />
         </div>
         <div className="p-5 !text-center sm:!text-left sm:w-3/4  my-auto">
           <article className="mb-5">
@@ -21,9 +25,11 @@ const Hero = () => {
           </article>
           <article className="mb-5 ">
             {window.innerWidth > 640 ? (
-              <p className="text-sm md:text-sm lg:text-xl text-slate-300 leading-7">{bio}</p>
+              <p className="text-sm text-left md:text-sm lg:text-xl text-slate-300 leading-7">
+                {bio}
+              </p>
             ) : (
-              <p className="text-sm md:text-sm lg:text-xl text-slate-300 leading-7">
+              <p className="text-sm text-left  md:text-sm lg:text-xl text-slate-300 leading-7">
                 {showMore ? bio : `${bio.substring(0, 150)}...`}
                 <button
                   className="inline text-green-400"
@@ -53,6 +59,6 @@ const Hero = () => {
       </section>
     </div>
   );
-}
+};
 
 export default Hero;
