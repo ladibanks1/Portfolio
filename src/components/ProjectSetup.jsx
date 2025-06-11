@@ -18,6 +18,15 @@ const ProjectSetup = () => {
   return (
     <div className="projects !flex !flex-wrap lg:p-14">
       <ProjectImages
+        title={"PATIENT HUB"}
+        tools={["REACT", "EXPRESS", "SOCKETIO", "TAILWIND"]}
+        projectLink={"https://patienthub.vercel.app"}
+        codeLink={"https://github.com/ladibanks1/patient-hub-frontend"}
+        img1={patientHubImage}
+        img2={patientHubImageOne}
+        img3={patientHubImageTwo}
+      />
+      <ProjectImages
         title={"SPACE WEBPAGE"}
         tools={["REACT", "CSS", "TAILWIND", "REST API"]}
         projectLink={"https://space-react-project.onrender.com"}
@@ -26,7 +35,7 @@ const ProjectSetup = () => {
         img2={spaceProjectImageOne}
         img3={spaceProjectImageTwo}
       />
-      <ProjectImages 
+      <ProjectImages
         title={"JOB WEBAPP"}
         tools={["TAILWIND", "REACT", "NODE", "EXPRESS", "MONGODB"]}
         projectLink={"https://job-project-wq3p.onrender.com"}
@@ -36,32 +45,22 @@ const ProjectSetup = () => {
         img3={jobProjectImageTwo}
       />
       <ProjectImages
-            title={"SCHOOL LANDING PAGE"}
-            tools={["HTML", "CSS", "TAILWIND"]}
-            projectLink={"https://tailwind-project-rose.vercel.app"}
-            codeLink={"https://github.com/ladibanks1/tailwind-project"}
-            img1={tailwindProjectImage}
-            img2={tailwindProjectImageOne}
-            img3={tailwindProjectImageTwo}
-
-       />
-      <ProjectImages 
-            title={"RESTAURANT LANDING PAGE"}
-            tools={["HTML", "CSS", "BOOTSTRAP"]}
-            projectLink={"https://ola-restaurant.vercel.app"}
-            codeLink={"https://github.com/ladibanks1/bootstrap-restaurant-project"}
-            img1={bootstrapProjectImage}
-            img2={bootstrapProjectImageOne}
-            img3={bootstrapProjectImageTwo}
+        title={"SCHOOL LANDING PAGE"}
+        tools={["HTML", "CSS", "TAILWIND"]}
+        projectLink={"https://tailwind-project-rose.vercel.app"}
+        codeLink={"https://github.com/ladibanks1/tailwind-project"}
+        img1={tailwindProjectImage}
+        img2={tailwindProjectImageOne}
+        img3={tailwindProjectImageTwo}
       />
-      <ProjectImages 
-          title={"PATIENT HUB"}
-          tools={["REACT" , "EXPRESS" , "SOCKETIO" , "TAILWIND"]}
-          projectLink={"https://patienthub.vercel.app"}
-          codeLink={"https://github.com/ladibanks1/patient-hub-frontend"}
-          img1={patientHubImage}
-          img2={patientHubImageOne}
-          img3={patientHubImageTwo}
+      <ProjectImages
+        title={"RESTAURANT LANDING PAGE"}
+        tools={["HTML", "CSS", "BOOTSTRAP"]}
+        projectLink={"https://ola-restaurant.vercel.app"}
+        codeLink={"https://github.com/ladibanks1/bootstrap-restaurant-project"}
+        img1={bootstrapProjectImage}
+        img2={bootstrapProjectImageOne}
+        img3={bootstrapProjectImageTwo}
       />
     </div>
   );
