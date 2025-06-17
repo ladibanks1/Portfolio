@@ -33,19 +33,27 @@ const Skills = () => {
         </div>
         <div>
           <h1>JAVASCRIPT</h1>
-          <p>{getYearsOfExperience("2023")}</p>
+          <p>{getYearsOfExperience("2022")}</p>
         </div>
         <div>
           <h1>REACT</h1>
           <p>{getYearsOfExperience("2023")}</p>
         </div>
         <div>
+          <h1>NEXT.JS</h1>
+          <p>{getYearsOfExperience("2024")}</p>
+        </div>
+        <div>
           <h1>NODE JS</h1>
           <p>{getYearsOfExperience("2023")}</p>
         </div>
         <div>
-          <h1>EXPRESS JS</h1>
+          <h1>EXPRESS</h1>
           <p>{getYearsOfExperience("2023")}</p>
+        </div>
+        <div>
+          <h1>NEST</h1>
+          <p>{getYearsOfExperience("2024")}</p>
         </div>
         <div>
           <h1>TYPESCRIPT</h1>
