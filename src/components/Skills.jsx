@@ -71,6 +71,14 @@ const Skills = () => {
           <h1>React Native</h1>
           <p>{getYearsOfExperience("2024")}</p>
         </div>
+        <div>
+          <h1>Python</h1>
+          <p>{getYearsOfExperience("2025")}</p>
+        </div>
+        <div>
+          <h1>Fast Api</h1>
+          <p>{getYearsOfExperience("2025")}</p>
+        </div>
       </section>
     </div>
   );
