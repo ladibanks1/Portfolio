@@ -1,7 +1,8 @@
 import { useState } from "react";
 import image from "../assets/Ola-image.jpg";
 const bio =
-  "Based in Nigeria, I am a dedicated full-stack developer passionate about crafting scalable, high-performance web, mobile, and backend applications that deliver real value to users. I thrive on solving complex challenges through clean, maintainable code and continuously expanding my skills with the latest technologies. Committed to collaboration and innovation, I’m eager to contribute to forward-thinking teams that drive impactful solutions and growth.";
+  "I’m a full-stack developer based in Nigeria, passionate about building scalable, high-performance web, mobile, and backend applications that truly impact users. I enjoy turning complex problems into elegant, maintainable solutions and constantly push myself to learn and apply the latest technologies. With a strong focus on collaboration, innovation, and delivering real value, I’m driven to contribute to teams that are shaping the future with impactful software.";
+
 const Hero = () => {
   const [showMore, setShowMore] = useState(false);
   return (
