@@ -25,6 +25,7 @@ const ProjectSetup = () => {
         img1={patientHubImage}
         img2={patientHubImageOne}
         img3={patientHubImageTwo}
+        description="A full-stack healthcare platform connecting patients,doctors, and hospitals. Features appointment booking, real-time chat, and dedicated dashboards for all three user types, built with React, Node.js, and Socket.io."
       />
       <ProjectImages
         title={"SPACE WEBPAGE"}
@@ -34,6 +35,7 @@ const ProjectSetup = () => {
         img1={spaceProjectImage}
         img2={spaceProjectImageOne}
         img3={spaceProjectImageTwo}
+        description={"An interactive space exploration website showcasing planets, travel distances, and journey times across the solar system, built with React and a REST API."}
       />
       <ProjectImages
         title={"JOB WEBAPP"}
@@ -43,6 +45,7 @@ const ProjectSetup = () => {
         img1={jobProjectImage}
         img2={jobProjectImageOne}
         img3={jobProjectImageTwo}
+        description={"A full-stack job board where companies can post listings and candidates can browse and apply featuring company profiles and a clean applicant experience built with React, Node.js, and MongoDB."}
       />
       <ProjectImages
         title={"SCHOOL LANDING PAGE"}
@@ -52,6 +55,7 @@ const ProjectSetup = () => {
         img1={tailwindProjectImage}
         img2={tailwindProjectImageOne}
         img3={tailwindProjectImageTwo}
+        description={"A modern school landing page showcasing past events, upcoming activities, and the institution's core offerings — designed to inform and engage prospective students and parents."}
       />
       <ProjectImages
         title={"RESTAURANT LANDING PAGE"}
@@ -61,6 +65,7 @@ const ProjectSetup = () => {
         img1={bootstrapProjectImage}
         img2={bootstrapProjectImageOne}
         img3={bootstrapProjectImageTwo}
+        description={"A clean, appetizing landing page for a restaurant business — showcasing the menu, ambiance, and location to attract and convert hungry visitors."}
       />
     </div>
   );

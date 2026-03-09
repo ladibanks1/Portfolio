@@ -11,4 +11,7 @@ export default defineConfig({
       routes: ["/"],
     }),
   ],
+  server: {
+    host: "0.0.0.0",
+  },
 });
